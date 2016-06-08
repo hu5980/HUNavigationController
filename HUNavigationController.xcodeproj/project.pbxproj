@@ -13,6 +13,7 @@
 		BC44605B1D051A0800DD1F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4460591D051A0800DD1F26 /* Main.storyboard */; };
 		BC44605D1D051A0800DD1F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC44605C1D051A0800DD1F26 /* Assets.xcassets */; };
 		BC4460601D051A0800DD1F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC44605E1D051A0800DD1F26 /* LaunchScreen.storyboard */; };
+		BC4460691D051A3400DD1F26 /* HUNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4460681D051A3400DD1F26 /* HUNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC44605C1D051A0800DD1F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC44605F1D051A0800DD1F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4460611D051A0800DD1F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4460671D051A3400DD1F26 /* HUNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUNavigationController.h; sourceTree = "<group>"; };
+		BC4460681D051A3400DD1F26 /* HUNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				BC4460541D051A0700DD1F26 /* AppDelegate.m */,
 				BC4460561D051A0700DD1F26 /* ViewController.h */,
 				BC4460571D051A0700DD1F26 /* ViewController.m */,
+				BC4460671D051A3400DD1F26 /* HUNavigationController.h */,
+				BC4460681D051A3400DD1F26 /* HUNavigationController.m */,
 				BC4460591D051A0800DD1F26 /* Main.storyboard */,
 				BC44605C1D051A0800DD1F26 /* Assets.xcassets */,
 				BC44605E1D051A0800DD1F26 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4460581D051A0700DD1F26 /* ViewController.m in Sources */,
+				BC4460691D051A3400DD1F26 /* HUNavigationController.m in Sources */,
 				BC4460551D051A0700DD1F26 /* AppDelegate.m in Sources */,
 				BC4460521D051A0700DD1F26 /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				BC4460661D051A0800DD1F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
